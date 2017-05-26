@@ -28,30 +28,32 @@ Project File Date:  05/26/2017
 *** Using Compiler 'V5.06 update 2 (build 183)', folder: 'F:\controler\ARM\ARMCC\Bin'
 Rebuild target 'final project'
 compiling ADC.c...
+compiling main.c...
+..\src\ADC.h(6): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\src\UART.h(4): warning:  #1295-D: Deprecated declaration UART_Init - give arg types
+  void UART_Init();
+..\src\UART.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\src\LCD1602.h(87): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\src\main.c(9): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\main.c: 5 warnings, 0 errors
 compiling KEY.c...
 ..\src\KEY.c(29): warning:  #1-D: last line of file ends without a newline
   }
 ..\src\KEY.c: 1 warning, 0 errors
-compiling main.c...
-..\src\ADC.h(6): warning:  #1-D: last line of file ends without a newline
-  #endif
-..\src\LCD1602.h(87): warning:  #1-D: last line of file ends without a newline
-  #endif
-..\src\main.c(7): warning:  #1-D: last line of file ends without a newline
-  }
-..\src\main.c: 3 warnings, 0 errors
-compiling LCD1602.c...
-..\src\LCD1602.c(194): warning:  #1-D: last line of file ends without a newline
-  	}
-..\src\LCD1602.c(194): error: At end of source:  #67: expected a "}"
-..\src\LCD1602.c: 1 warning, 1 error
 assembling startup_LPC11xx.s...
 compiling UART.c...
 ..\src\UART.c(54): warning:  #1-D: last line of file ends without a newline
   }
 ..\src\UART.c: 1 warning, 0 errors
+compiling LCD1602.c...
 compiling system_LPC11xx.c...
-".\final project.axf" - 1 Error(s), 6 Warning(s).
+linking...
+Program Size: Code=1176 RO-data=224 RW-data=8 ZI-data=608  
+".\final project.axf" - 0 Error(s), 7 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -77,9 +79,8 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:4.3.0
 
    * Component: Keil::Device:Startup:1.0.0
-      Source file:   Device\Source\system_LPC11xx.c
       Source file:   Device\Source\ARM\startup_LPC11xx.s
-Target not created.
+      Source file:   Device\Source\system_LPC11xx.c
 Build Time Elapsed:  00:00:04
 </pre>
 </body>

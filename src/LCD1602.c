@@ -59,8 +59,7 @@ uint8_t Busy_Check()
     LCD_Status = (LPC_GPIO2->DATA & 0x7F8) >> 3;	//读取端口数据
 //	LCD_DATA_OUT;	//将端口设置为输出
 	LPC_GPIO2->DIR |= 0x7F8;
-    
-	LCD_E_LOW;	
+  LCD_E_LOW;	
 	return LCD_Status;
 }
 /********************************************************************************
@@ -179,16 +178,4 @@ void InitLCD()
 	LCD_WriteCommand(0x0c);	//开显示，关闭光标，光标不闪烁
 	Delayms(1);	
 }
-/********************************************************************************
-* FunctionName   : main()
-* Description    : 主函数，在第一行起始为止开始显示字符串，占满后另起一行
-* EntryParameter : None
-* ReturnValue    : None
-********************************************************************************/
-int main()
-{
-	InitLCD();
-	while(1)
-	{
-		LCD_DisplayStr(0,0,"Hello World!Hello Kitty!");
-	}
+
