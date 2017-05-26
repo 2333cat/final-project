@@ -30,17 +30,23 @@ Rebuild target 'final project'
 compiling main.c...
 ..\src\ADC.h(6): warning:  #1-D: last line of file ends without a newline
   #endif
-..\src\main.c(2): error:  #5: cannot open source input file "UART.h": No such file or directory
-  #include"UART.h"
-..\src\main.c: 1 warning, 1 error
-compiling ADC.c...
-assembling startup_LPC11xx.s...
+..\src\main.c(7): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\main.c: 2 warnings, 0 errors
+compiling KEY.c...
+KEY.c(29): warning:  #1-D: last line of file ends without a newline
+  }
+KEY.c: 1 warning, 0 errors
 compiling UART.c...
 UART.c(42): warning:  #1-D: last line of file ends without a newline
   }
 UART.c: 1 warning, 0 errors
+assembling startup_LPC11xx.s...
+compiling ADC.c...
 compiling system_LPC11xx.c...
-".\final project.axf" - 1 Error(s), 2 Warning(s).
+linking...
+Program Size: Code=964 RO-data=224 RW-data=4 ZI-data=612  
+".\final project.axf" - 0 Error(s), 4 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -68,8 +74,7 @@ Package Vendor: Keil
    * Component: Keil::Device:Startup:1.0.0
       Source file:   Device\Source\ARM\startup_LPC11xx.s
       Source file:   Device\Source\system_LPC11xx.c
-Target not created.
-Build Time Elapsed:  00:00:04
+Build Time Elapsed:  00:00:06
 </pre>
 </body>
 </html>

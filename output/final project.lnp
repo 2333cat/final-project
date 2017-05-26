@@ -1,5 +1,7 @@
 --cpu Cortex-M0
 ".\main.o"
+".\key.o"
+".\uart.o"
 ".\adc.o"
 ".\startup_lpc11xx.o"
 ".\system_lpc11xx.o"

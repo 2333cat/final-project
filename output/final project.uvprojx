@@ -388,6 +388,11 @@
           <GroupName>hearware</GroupName>
           <Files>
             <File>
+              <FileName>KEY.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\KEY.c</FilePath>
+            </File>
+            <File>
               <FileName>UART.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\UART.c</FilePath>
