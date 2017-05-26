@@ -1,4 +1,4 @@
-.\key.o: KEY.c
+.\key.o: ..\src\KEY.c
 .\key.o: F:\controler\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h
 .\key.o: F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h
 .\key.o: F:\controler\ARM\ARMCC\Bin\..\include\stdint.h

@@ -1,8 +1,9 @@
 --cpu Cortex-M0
 ".\main.o"
+".\adc.o"
 ".\key.o"
 ".\uart.o"
-".\adc.o"
+".\lcd1602.o"
 ".\startup_lpc11xx.o"
 ".\system_lpc11xx.o"
 --strict --scatter ".\final project.sct"

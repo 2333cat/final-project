@@ -40,3 +40,15 @@ void UART_SendStr(char  *pucStr)
 			UART_SendByte(*pucStr++);  
 		}
 }
+uint8_t UART_GetByte(void )
+{
+	uint8_t  ucRcvData;
+	 while((LPC_UART->LSR&0x01)==0); 
+	
+	
+	//等待接收数据
+	
+		ucRcvData=LPC_UART->RBR;//读出数据
+		return (ucRcvData);
+	
+}
