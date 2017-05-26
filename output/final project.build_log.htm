@@ -27,19 +27,19 @@ Project File Date:  05/26/2017
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 2 (build 183)', folder: 'F:\controler\ARM\ARMCC\Bin'
 Rebuild target 'final project'
-assembling startup_LPC11xx.s...
-compiling ADC.c...
 compiling main.c...
-..\src\main.c(1): warning:  #1-D: last line of file ends without a newline
-  #include"ADC.h"
 ..\src\ADC.h(6): warning:  #1-D: last line of file ends without a newline
   #endif
-..\src\main.c: 2 warnings, 0 errors
+..\src\main.c(2): error:  #5: cannot open source input file "UART.h": No such file or directory
+  #include"UART.h"
+..\src\main.c: 1 warning, 1 error
+compiling ADC.c...
+assembling startup_LPC11xx.s...
+compiling UART.c...
+UART.c(42): warning:  #1-D: last line of file ends without a newline
+  }
+UART.c: 1 warning, 0 errors
 compiling system_LPC11xx.c...
-linking...
-.\final project.axf: Error: L6218E: Undefined symbol main (referred from __rtentry2.o).
-Not enough information to list image symbols.
-Finished: 1 information, 0 warning and 1 error messages.
 ".\final project.axf" - 1 Error(s), 2 Warning(s).
 
 <h2>Software Packages used:</h2>
@@ -66,10 +66,10 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE:4.3.0
 
    * Component: Keil::Device:Startup:1.0.0
-      Source file:   Device\Source\system_LPC11xx.c
       Source file:   Device\Source\ARM\startup_LPC11xx.s
+      Source file:   Device\Source\system_LPC11xx.c
 Target not created.
-Build Time Elapsed:  00:00:03
+Build Time Elapsed:  00:00:04
 </pre>
 </body>
 </html>

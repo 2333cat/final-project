@@ -1,5 +1,5 @@
 Dependencies for Project 'final project', Target 'final project': (DO NOT MODIFY !)
-F (..\src\main.c)(0x5927E5A0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-I "F:\software-dangpianji\final project\output\RTE"-I F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I F:\controler\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (..\src\main.c)(0x5927ED1C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-I "F:\software-dangpianji\final project\output\RTE"-I F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I F:\controler\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\main.o --omf_browse .\main.crf --depend .\main.d)
 I (..\src\ADC.h)(0x5927E5A0)
 I (F:\controler\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
 I (F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
@@ -8,6 +8,16 @@ I (F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A35
 I (F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
 I (F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
 I (F:\controler\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+F (.\UART.c)(0x5927EC8C)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-I "F:\software-dangpianji\final project\output\RTE"-I F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I F:\controler\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (F:\controler\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
+I (F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (F:\controler\ARM\ARMCC\include\stdint.h)(0x56FE42DE)
+I (F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (F:\controler\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h)(0x4CF35218)
+I (F:\controler\ARM\ARMCC\include\stdio.h)(0x56FE42DE)
+I (F:\controler\ARM\ARMCC\include\string.h)(0x56FE42DE)
 F (..\src\ADC.c)(0x5927E55E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections-I "F:\software-dangpianji\final project\output\RTE"-I F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-I F:\controler\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx-D__UVISION_VERSION="520" -D_RTE_-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
 I (F:\controler\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\LPC11xx.h)(0x4FF4FDF8)
 I (F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
