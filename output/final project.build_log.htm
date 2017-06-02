@@ -17,7 +17,7 @@ Library Manager: ArmAr.exe V5.06 update 2 (build 183)
 Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
 CPU DLL:         SARMCM3.DLL V5.20
 Dialog DLL:      DARMCM1.DLL V1.14.0.0
-Target DLL:      UL2CM3.DLL V1.157.18.0
+Target DLL:      Segger\JL2CM3.dll V2.99.20.0
 Dialog DLL:      TARMCM1.DLL V1.10.0.0
  
 <h2>Project:</h2>
@@ -27,9 +27,20 @@ Project File Date:  05/26/2017
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 2 (build 183)', folder: 'F:\controler\ARM\ARMCC\Bin'
 Rebuild target 'final project'
+compiling KEY.c...
+..\src\KEY.c(29): warning:  #1-D: last line of file ends without a newline
+  }
+..\src\KEY.c: 1 warning, 0 errors
 compiling ADC.c...
+..\src\UART.h(4): warning:  #1295-D: Deprecated declaration UART_Init - give arg types
+  void UART_Init();
+..\src\UART.h(7): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\src\ADC.c(56): warning:  #1-D: last line of file ends without a newline
+  		
+..\src\ADC.c: 3 warnings, 0 errors
 compiling main.c...
-..\src\ADC.h(6): warning:  #1-D: last line of file ends without a newline
+..\src\ADC.h(7): warning:  #1-D: last line of file ends without a newline
   #endif
 ..\src\UART.h(4): warning:  #1295-D: Deprecated declaration UART_Init - give arg types
   void UART_Init();
@@ -37,13 +48,9 @@ compiling main.c...
   #endif
 ..\src\LCD1602.h(87): warning:  #1-D: last line of file ends without a newline
   #endif
-..\src\main.c(9): warning:  #1-D: last line of file ends without a newline
-  }
+..\src\main.c(14): warning:  #1-D: last line of file ends without a newline
+  } 
 ..\src\main.c: 5 warnings, 0 errors
-compiling KEY.c...
-..\src\KEY.c(29): warning:  #1-D: last line of file ends without a newline
-  }
-..\src\KEY.c: 1 warning, 0 errors
 assembling startup_LPC11xx.s...
 compiling UART.c...
 ..\src\UART.c(54): warning:  #1-D: last line of file ends without a newline
@@ -52,8 +59,8 @@ compiling UART.c...
 compiling LCD1602.c...
 compiling system_LPC11xx.c...
 linking...
-Program Size: Code=1176 RO-data=224 RW-data=8 ZI-data=608  
-".\final project.axf" - 0 Error(s), 7 Warning(s).
+Program Size: Code=2264 RO-data=224 RW-data=20 ZI-data=628  
+".\final project.axf" - 0 Error(s), 10 Warning(s).
 
 <h2>Software Packages used:</h2>
 

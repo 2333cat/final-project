@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #define UART_BPS 9600//串口通信波特率
-        
+        uint8_t  table[9]={0xff,0x07f,0x03f,0x1f,0x0f,0x07,0x03,0x01,0x00};
 void UART_Init()
 {
 	uint16_t usFdiv;

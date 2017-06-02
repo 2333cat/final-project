@@ -6,5 +6,6 @@
 .\adc.o: F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h
 .\adc.o: F:\controler\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h
 .\adc.o: F:\controler\ARM\PACK\Keil\LPC1100_DFP\1.4.0\Device\Include\LPC11xx\system_LPC11xx.h
+.\adc.o: ..\src\UART.h
 .\adc.o: F:\controler\ARM\ARMCC\Bin\..\include\stdio.h
 .\adc.o: F:\controler\ARM\ARMCC\Bin\..\include\string.h

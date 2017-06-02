@@ -3,4 +3,5 @@
 #include "LPC11xx.h"
 void ADC_Init(void);
 void delay(uint32_t ulTime);
+void ADC_read(void );
 #endif
