@@ -27,3 +27,12 @@
 	LPC_GPIO3->IEV&=~(1<<4);//允许p3_0~p3_4上的中断下降沿有效
 	NVIC_EnableIRQ(EINT3_IRQn);
 }
+	void Bell_Init()
+	{
+			LPC_SYSCON ->SYSAHBCLKCTRL|=(1<<16);
+			LPC_IOCON->PIO0_1&=~0X07; 
+			LPC_IOCON->PIO0_1|=0x00;
+			LPC_SYSCON ->SYSAHBCLKCTRL&=~(1<<16);
+			LPC_GPIO0->DIR|=(1<<1);
+			LPC_GPIO0 ->DATA|=(1<<1);
+	}
